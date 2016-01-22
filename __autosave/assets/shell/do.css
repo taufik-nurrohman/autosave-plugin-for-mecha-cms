@@ -1,0 +1,103 @@
+.autosave-panel {
+  display:block;
+  position:fixed;
+  top:100%;
+  left:.5em;
+  z-index:9999;
+  background-color:#333;
+  background-color:rgba(0,0,0,.6);
+  border:1px solid rgba(0,0,0,.6);
+  font:inherit;
+  line-height:1;
+  color:white;
+  text-align:left;
+  text-shadow:none;
+  box-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+.autosave-panel.visible {
+  top:auto;
+  bottom:.5em;
+  margin-bottom:1px;
+}
+.autosave-panel p {
+  margin:0;
+  padding:.5em;
+  text-align:center;
+}
+.autosave-panel h3 {
+  background:inherit;
+  border:inherit;
+  color:inherit;
+  font:inherit;
+  font-size:120%;
+  position:absolute;
+  bottom:100%;
+  left:0;
+  margin:0 0 .5em;
+  padding:.6em;
+  cursor:pointer;
+  box-shadow:0 1px 2px rgba(0,0,0,.6);
+}
+.autosave-panel h3 small {
+  display:block;
+  font-size:80%;
+  margin-top:1em;
+}
+.autosave-panel.visible h3 {display:none}
+.autosave-panel button,
+.autosave-panel button::-moz-focus-inner {
+  margin:0;
+  padding:0;
+  background:none;
+  border:0;
+  outline:0;
+  font:inherit;
+  color:inherit;
+  cursor:pointer;
+  box-shadow:none;
+}
+.autosave-panel button {
+  font-size:80%;
+  text-transform:uppercase;
+  padding:.4em .6em;
+  background-color:white;
+  color:#333;
+  border-radius:.2em;
+}
+.autosave-panel button:focus,
+.autosave-panel button:hover {
+  background-color:#F1E599;
+  color:#333;
+}
+.autosave-panel button:active {
+  background-color:#D34A24;
+  color:white;
+}
+.autosave-panel button[disabled],
+.autosave-panel button[disabled]:focus,
+.autosave-panel button[disabled]:hover,
+.autosave-panel button[disabled]:active {
+  background-color:white;
+  color:#333;
+  opacity:.5;
+}
+.autosave-message {
+  display:block;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+  z-index:9999;
+  height:0;
+  overflow:visible;
+  text-align:center;
+  text-shadow:none;
+}
+.autosave-message div {
+  display:inline-block;
+  background-color:yellow;
+  color:black;
+  font-size:86%;
+  padding:.5em 1em;
+  box-shadow:0 1px 2px rgba(0,0,0,.6);
+}

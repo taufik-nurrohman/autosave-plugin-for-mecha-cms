@@ -1,0 +1,17 @@
+Title: Autosave
+Author: Taufik Nurrohman
+URL: http://latitudu.com
+Version: 1.0.0
+
+====
+
+> Secara otomatis menyimpan data formulir ke `localStorage` peramban.
+
+Ada beberapa keadaan yang dapat memicu plugin _autosave_ untuk bekerja:
+
+ - Ketika interval telah mencapai batas waktunya
+ - Ketika Anda menutup jendela peramban
+ - Ketika Anda memuat ulang jendela peramban
+ - Ketika Anda penekan tombol _Simpan Sesi_.
+
+<!-- block:donate -->

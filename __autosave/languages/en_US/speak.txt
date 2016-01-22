@@ -1,0 +1,20 @@
+plugin_autosave:
+  button:
+    0: Save Session
+    1: Clear Session
+    2: Restore Session
+  message:
+    0: Session successfully saved at %s.
+    1: Session successfully cleared.
+    2: Session successfully restored.
+    3: Nothing to restore.
+  text:
+    0: Your Session
+    1: Last session: %s
+
+manager:
+  plugin_autosave_title:
+    0: Interval
+    1: Edit <abbr title="Cascading Style Sheet">CSS</abbr>
+  plugin_autosave_description:
+    0: Time in second. Leave it empty to disable the <em>autosave</em> interval.

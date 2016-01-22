@@ -1,0 +1,20 @@
+plugin_autosave:
+  button:
+    0: Simpan Sesi
+    1: Hapus Sesi
+    2: Muat Sesi
+  message:
+    0: Sesi berhasil disimpan pada %s.
+    1: Sesi berhasil dibersihkan.
+    2: Sesi berhasil dimuat.
+    3: Tidak ada yang bisa dimuat.
+  text:
+    0: Sesi Anda
+    1: Sesi terakhir: %s
+
+manager:
+  plugin_autosave_title:
+    0: Jeda
+    1: Sunting <abbr title="Cascading Style Sheet">CSS</abbr>
+  plugin_autosave_description:
+    0: Waktu dalam detik. Biarkan kosong untuk menonaktifkan jeda <em>autosave</em>.
