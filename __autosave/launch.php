@@ -3,6 +3,7 @@
 // Load the configuration data
 $autosave_config = File::open(__DIR__ . DS . 'states' . DS . 'config.txt')->unserialize();
 
+define('AUTOSAVE_ID', md5($config->url_path));
 define('AUTOSAVE_INTERVAL', $autosave_config['interval']);
 
 Config::merge('DASHBOARD.languages', array('plugin_autosave' => $speak->plugin_autosave));
