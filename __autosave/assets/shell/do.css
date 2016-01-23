@@ -1,5 +1,5 @@
 .autosave-panel h3,
-.autosave-panel h3 + p {
+.autosave-panel p {
   position:fixed;
   bottom:.6em;
   left:.5em;
@@ -31,7 +31,7 @@
   margin-top:.5em;
 }
 .autosave-panel.visible h3 {display:none}
-.autosave-panel.visible h3 + p {display:block}
+.autosave-panel.visible p {display:block}
 .autosave-panel button,
 .autosave-panel button::-moz-focus-inner {
   margin:0;
@@ -52,8 +52,14 @@
   cursor:pointer;
 }
 .autosave-panel button:focus,
-.autosave-panel button:hover {background-color:#FCE125}
-.autosave-panel button:active {background-color:#F7B703}
+.autosave-panel button:hover {
+  background-color:#FCE125;
+  color:black;
+}
+.autosave-panel button:active {
+  background-color:#F7B703;
+  color:black;
+}
 .autosave-panel button[disabled],
 .autosave-panel button[disabled]:focus,
 .autosave-panel button[disabled]:hover,
